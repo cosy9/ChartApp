@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ChartApp",
+    "slug": "chartapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cosy9.chartapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "cosy9",
+    "extra": {
+      "eas": {
+        "projectId": "894d1170-1882-48c7-a0b1-1d1bfde71e0f"
+      }
+    }
+  }
+}
